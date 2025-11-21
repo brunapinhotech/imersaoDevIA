@@ -1,56 +1,92 @@
 [
-{
-    "nome":"JavaScript",
-    "descricao": "O JS é a linguagem da web.",
-    "ano": 1995,
-    "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
-},
-{
-    "nome":"Python",
-    "descricao": "O Python é a linguagem da ciência de dados e IA.",
-    "ano": 1991,
-    "link": "https://www.python.org/doc/"
-},
-{
-    "nome":"Java",
-    "descricao": "Java é uma linguagem de programação orientada a objetos, popular para aplicações corporativas.",
-    "ano": 1995,
-    "link": "https://docs.oracle.com/en/java/"
-},
-{
-    "nome":"C#",
-    "descricao": "C# (C Sharp) é uma linguagem moderna, orientada a objetos e desenvolvida pela Microsoft.",
-    "ano": 2000,
-    "link": "https://learn.microsoft.com/pt-br/dotnet/csharp/"
-},
-{
-    "nome":"C++",
-    "descricao": "C++ é uma linguagem de programação de propósito geral com recursos de programação de baixo e alto nível.",
-    "ano": 1985,
-    "link": "https://isocpp.org/get-started"
-},
-{
-    "nome":"PHP",
-    "descricao": "PHP é uma linguagem de script popular, especialmente adequada para o desenvolvimento web.",
-    "ano": 1995,
-    "link": "https://www.php.net/manual/pt_BR/"
-},
-{
-    "nome":"TypeScript",
-    "descricao": "TypeScript é um superconjunto de JavaScript que adiciona tipagem estática opcional à linguagem.",
-    "ano": 2012,
-    "link": "https://www.typescriptlang.org/docs/"
-},
-{
-    "nome":"Ruby",
-    "descricao": "Ruby é uma linguagem de programação dinâmica e de código aberto com foco na simplicidade e produtividade.",
-    "ano": 1995,
-    "link": "https://www.ruby-lang.org/pt/documentation/"
-},
-{
-    "nome":"Go",
-    "descricao": "Go (ou Golang) é uma linguagem de programação de código aberto criada pelo Google, focada em simplicidade e eficiência.",
-    "ano": 2009,
-    "link": "https://go.dev/doc/"
-}
+    {
+        "titulo": "JavaScript",
+        "ano": 1995,
+        "descricao": "JavaScript é uma linguagem de programação essencial para o desenvolvimento web moderno. Ela permite adicionar comportamento, lógica, consumo de APIs, animações e interatividade em sites e aplicações.",
+        "area": "Desenvolvimento Web",
+        "dificuldade": "Intermediário",
+        "relacionados": ["HTML", "CSS", "Node.js", "React"],
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+    },
+    {
+        "titulo": "Python",
+        "ano": 1991,
+        "descricao": "Python é uma linguagem simples, versátil e extremamente popular. Usada em inteligência artificial, automação, ciência de dados, análises estatísticas, backend e muito mais.",
+        "area": "IA, Ciência de Dados, Automação",
+        "dificuldade": "Intermediário",
+        "relacionados": ["Pandas", "NumPy", "Django"],
+        "link": "https://www.python.org/"
+    },
+    {
+        "titulo": "Java",
+        "ano": 1995,
+        "descricao": "Java é uma linguagem orientada a objetos amplamente utilizada em sistemas bancários, aplicativos corporativos, Android e softwares robustos. É conhecida por sua segurança e estabilidade.",
+        "area": "Sistemas Corporativos e Mobile",
+        "dificuldade": "Avançado",
+        "relacionados": ["Spring Boot", "Kotlin"],
+        "link": "https://www.java.com/pt-BR/"
+    },
+    {
+        "titulo": "HTML",
+        "ano": 1993,
+        "descricao": "HTML é a linguagem de marcação usada para estruturar páginas na web. É a base de qualquer aplicação front-end e define títulos, textos, links, imagens e demais elementos da interface.",
+        "area": "Desenvolvimento Web",
+        "dificuldade": "Iniciante",
+        "relacionados": ["CSS", "JavaScript"],
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+    },
+    {
+        "titulo": "CSS",
+        "ano": 1996,
+        "descricao": "CSS é a linguagem usada para estilizar páginas web, permitindo controle total sobre cores, layouts, fontes, sombras, animações e responsividade.",
+        "area": "UI/UX e Front-end",
+        "dificuldade": "Intermediário",
+        "relacionados": ["HTML", "Tailwind", "Bootstrap"],
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+    },
+    {
+        "titulo": "TypeScript",
+        "ano": 2012,
+        "descricao": "TypeScript é um superset do JavaScript que adiciona tipagem estática, tornando o desenvolvimento mais seguro e organizado, principalmente em projetos grandes.",
+        "area": "Desenvolvimento Web",
+        "dificuldade": "Intermediário",
+        "relacionados": ["JavaScript", "Angular", "React"],
+        "link": "https://www.typescriptlang.org/"
+    },
+    {
+        "titulo": "C#",
+        "ano": 2000,
+        "descricao": "C# é uma linguagem poderosa desenvolvida pela Microsoft. Muito utilizada para criar sistemas corporativos, aplicativos desktop, websites e jogos (principalmente com Unity).",
+        "area": "Sistemas e Games",
+        "dificuldade": "Intermediário",
+        "relacionados": [".NET", "ASP.NET", "Unity"],
+        "link": "https://learn.microsoft.com/pt-br/dotnet/csharp/"
+    },
+    {
+        "titulo": "Node.js",
+        "ano": 2009,
+        "descricao": "Node.js é um ambiente que permite rodar JavaScript no backend, permitindo criar APIs, servidores web e microserviços de maneira rápida e escalável.",
+        "area": "Backend Web",
+        "dificuldade": "Intermediário",
+        "relacionados": ["JavaScript", "Express.js"],
+        "link": "https://nodejs.org/"
+    },
+    {
+        "titulo": "React",
+        "ano": 2013,
+        "descricao": "React é uma biblioteca JavaScript criada pelo Facebook para criar interfaces modernas, rápidas e reativas. É amplamente usada no mercado.",
+        "area": "Front-end",
+        "dificuldade": "Intermediário",
+        "relacionados": ["JavaScript", "Node.js", "Next.js"],
+        "link": "https://react.dev/"
+    },
+    {
+        "titulo": "SQL",
+        "ano": 1974,
+        "descricao": "SQL é a linguagem usada para gerenciar, criar, consultar e manipular bancos de dados relacionais. É essencial para qualquer desenvolvedor backend ou analista de dados.",
+        "area": "Banco de Dados",
+        "dificuldade": "Intermediário",
+        "relacionados": ["MySQL", "PostgreSQL", "Oracle"],
+        "link": "https://www.w3schools.com/sql/"
+    }
 ]

@@ -1,42 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Base de conhecimento</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Bruna Pinho • Portfólio</title>
 </head>
+
 <body>
     <header>
-        <h1>Base de conhecimento</h1>
+        <h1>Bruna Pinho</h1>
+
         <div>
-            <input type="text" placeholder="Digite uma linguagem de programação">
+            <input 
+                type="text" 
+                id="campo-busca" 
+                placeholder="Digite uma linguagem de programação"
+            />
             <button id="botao-busca" onclick="iniciarBusca()">Buscar</button>
         </div>
     </header>
 
     <main>
         <section class="card-container">
-            <!-- <article class="card">
-                <h2>JavaScript</h2>
-                <p>1995</p>
-                <p>JavaScript é uma linguagem de programação</p>
-                <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">Saiba mais</a>
-            </article> -->
+            <!-- Os cards das linguagens serão adicionados pelo script.js -->
+        </section>
+
+        <section id="portfolio">
+            <h2>Minha Trajetória Profissional</h2>
+
+            <section id="skills">
+    <h2>Habilidades Técnicas</h2>
+
+    <div class="skills-container">
+        <div class="skill-card">
+            <h3>JavaScript</h3>
+            <p>Manipulação de DOM, eventos, funções assíncronas, consumo de JSON e lógica de programação.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>HTML5</h3>
+            <p>Estruturação de páginas, semântica e boas práticas para web moderna.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>CSS3</h3>
+            <p>Estilização responsiva, animações, layouts flexíveis e design clean.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Git & GitHub</h3>
+            <p>Controle de versão, branches, commits, repositórios e projetos públicos.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Python</h3>
+            <p>Scripts, automação e fundamentos utilizados na área de QA e tecnologia.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Testes de Software</h3>
+            <p>Fundamentos de QA, casos de teste, bugs, validação e qualidade.</p>
+        </div>
+    </div>
+</section>
+
+            <div class="portfolio-content">
+                <p>
+                    Sou uma profissional com mais de 5 anos de experiência na área da saúde, 
+                    atuando em laboratórios, hospitais e diagnósticos clínicos. Passei por 
+                    instituições como IBCC Oncologia, Rede D'Or São Luiz, DASA e outras grandes redes,
+                    sempre trabalhando com responsabilidade, precisão e compromisso com o cuidado.
+                </p>
+
+                <p>
+                    Atualmente, estou em transição de carreira para a área de Tecnologia, com foco 
+                    em Qualidade de Software (QA) e Engenharia de Software. Essa mudança uniu minha 
+                    experiência técnica, meu olhar analítico da área da saúde e minha paixão crescente 
+                    por tecnologia e automação.
+                </p>
+
+                <p>
+                    Hoje estudo e desenvolvo projetos envolvendo lógica de programação, testes de software, 
+                    automação e boas práticas de desenvolvimento. Meu objetivo é trazer a mesma excelência
+                    que tive na área da saúde para o universo da tecnologia.
+                </p>
+
+                <p>
+                    Aqui no meu portfólio, você encontrará meus projetos, minha linha do tempo profissional,
+                    experiências acadêmicas e tudo que compõe minha trajetória até aqui.
+                </p>
+            </div>
         </section>
     </main>
 
-    <footer>
+    <section id="timeline">
+    <h2>Minha Linha do Tempo Profissional</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <div class="timeline-content left">
+                <h3>2018 • Início na Área da Saúde</h3>
+                <p>Ingresso na área da saúde atuando em laboratórios e hospitais, desenvolvendo competências técnicas e humanas essenciais.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-content right">
+                <h3>2019–2024 • Experiência em Laboratórios</h3>
+                <p>Atuei em grandes redes hospitalares como Rede D'Or, DASA, Senne Liquor e IBCC Oncologia, sempre em busca de excelência.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-content left">
+                <h3>2024 • Primeiro Contato com Tecnologia</h3>
+                <p>Decidi migrar de carreira e iniciei estudos em Análise e Desenvolvimento de Sistemas.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-content right">
+                <h3>2025 • Imersão em Programação</h3>
+                <p>Início da Imersão Dev e prática em HTML, CSS, JavaScript, GitHub e construção de portfólio.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-content left">
+                <h3>2025 • Pós-graduação em Engenharia de Software</h3>
+                <p>Foco em Qualidade e Testes de Software, consolidando a migração para área tech.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
     <footer class="footer">
         <ul class="footer-links">
-            <li>
-                <a href="https://github.com/brunapinhotech">GitHub</a>
-            </li>
-            <li>
-                <a href="https://www.alura.com.br/">Alura</a>
-            </li>
+            <li><a href="https://github.com/brunapinhotech" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/brunapinhof/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/brunapinhof/" target="_blank">Instagram</a></li>
         </ul>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
